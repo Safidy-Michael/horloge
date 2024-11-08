@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/horloge/static/css/main.ab3769da.css",
+    "main.js": "/horloge/static/js/main.fe78e92d.js",
+    "static/js/453.855915cf.chunk.js": "/horloge/static/js/453.855915cf.chunk.js",
+    "index.html": "/horloge/index.html",
+    "main.ab3769da.css.map": "/horloge/static/css/main.ab3769da.css.map",
+    "main.fe78e92d.js.map": "/horloge/static/js/main.fe78e92d.js.map",
+    "453.855915cf.chunk.js.map": "/horloge/static/js/453.855915cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab3769da.css",
+    "static/js/main.fe78e92d.js"
+  ]
+}
