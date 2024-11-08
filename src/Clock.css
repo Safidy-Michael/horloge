@@ -1,0 +1,15 @@
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+  }
+  
+  .clock {
+    font-size: 4rem;
+    color: #61dafb;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
