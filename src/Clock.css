@@ -1,15 +1,51 @@
 .clock-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #282c34;
-  }
-  
-  .clock {
-    font-size: 4rem;
-    color: #61dafb;
-    font-family: 'Courier New', Courier, monospace;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #282c34;
+  color: #61dafb;
+  height: 100vh;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.clock {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.stopwatch, .timer {
+  margin: 20px 0;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #61dafb;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+button:disabled {
+  background-color: #b0b0b0;
+  cursor: not-allowed;
+}
+
+input[type="number"] {
+  padding: 5px;
+  font-size: 1rem;
+  text-align: center;
+  width: 100px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
